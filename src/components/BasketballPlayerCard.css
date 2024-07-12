@@ -1,0 +1,100 @@
+/* Base styles for the card */
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Image styles */
+.player-image {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Player name styles */
+.player-name {
+    font-size: 1.5em;
+    margin: 8px 0;
+}
+
+/* Player position styles */
+.player-position {
+    color: #666;
+    margin: 4px 0;
+}
+
+/* Stats container styles */
+.player-stats {
+    text-align: left;
+    margin-top: 12px;
+}
+
+/* Individual stat styles */
+.player-stats p {
+    margin: 4px 0;
+}
+
+/* player button styles*/
+.player-btn{
+    color: #ffffff;
+    background-color: #1f2864;
+    margin-top: 16px;
+    border-radius: 9px;
+    width:auto;
+    height: auto;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.player-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .player-card {
+        max-width: 400px;
+        padding: 24px;
+    }
+
+    .player-name {
+        font-size: 1.75em;
+    }
+
+    .player-position {
+        font-size: 1.1em;
+    }
+
+    .player-stats p {
+        font-size: 1.1em;
+    }
+}
+
+/* Media query for very large screens */
+@media (min-width: 1024px) {
+    .player-card {
+        max-width: 500px;
+        padding: 32px;
+    }
+
+    .player-name {
+        font-size: 2em;
+    }
+
+    .player-position {
+        font-size: 1.2em;
+    }
+
+    .player-stats p {
+        font-size: 1.2em;
+    }
+}
